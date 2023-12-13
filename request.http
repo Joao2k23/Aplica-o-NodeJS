@@ -1,0 +1,28 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name":"caderno",
+    "price": 15.00    
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/d3f3d491-a625-4d03-b291-61b0709a5b47
+
+###
+
+PUT http://localhost:4002/products/37665253-7ba7-443b-9d84-103c7c722208
+content-type: application/json
+
+{
+    "name":"caderno lilás 96 folhas",
+    "price": 20.00    
+}
+
+###
+DELETE http://localhost:4002/products/1254e86f-223c-47a5-b997-4441839df41b
